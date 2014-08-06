@@ -1,0 +1,1137 @@
+@prefix rdfs: <http:www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http:www.w3.org/2002/07/owl#> .
+@prefix rdf: <http:www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http:www.w3.org/2001/XMLSchema#> .
+
+@prefix db: <http:dbpedia.org/resourse/>
+
+@prefix : <http:git-hub.com/potan/immuntology/> .
+@prefix cell: <http:git-hub.com/potan/immuntology/cell/> .
+@prefix interleukin: <http:git-hub.com/potan/immuntology/interleukin/> .
+@prefix receptor: <http:git-hub.com/potan/immuntology/receptor/> .
+
+
+
+cell:Epithelial_cell a :cell ;
+           owl:sameAs db:Epithelial_cell ;
+           :name "epithelial cells" .
+
+cell:Pro-B_cell a :cell ;
+           owl:sameAs db:Pro-B_cell ;
+           :name "pro-B cell" .
+
+cell:T_cell a :cell ;
+           owl:sameAs db:T_cell ;
+           :name "T cells" .
+
+cell:Neutrophil_granulocyte a :cell ;
+           owl:sameAs db:Neutrophil_granulocyte ;
+           :name "neutrophils" .
+
+cell:T_helper_cell a :cell ;
+           owl:sameAs db:T_helper_cell ;
+           :name "T helper cells" ;
+           :name "Th1-cells" .
+
+cell:Natural_killer_cell a :cell ;
+           owl:sameAs db:Natural_killer_cell ;
+           :name "NK cells" .
+
+cell:Natural_killer_T_cell a :cell ;
+           owl:sameAs db:Natural_killer_T_cell ;
+           :name "NKT cells" .
+
+cell:Endothelium a :cell ;
+           owl:sameAs db:Endothelium ;
+           :name "endothelial cells" ;
+           :name "endothelium" .
+
+cell:Hematopoietic_stem_cell a :cell ;
+           owl:sameAs db:Hematopoietic_stem_cell ;
+           :name "hematopoietic stem cells" .
+
+cell:Mast_cell a :cell ;
+           owl:sameAs db:Mast_cell ;
+           :name "mast cells" .
+
+cell:Th2_cell a :cell ;
+           owl:sameAs db:Th2_cell ;
+           :name "Th2 cells" .
+
+cell:Thymus_stromal_cells a :cell ;
+           owl:sameAs db:Thymus_stromal_cells ;
+           :name "thymus stromal cells" .
+
+cell:Lymphocytes a :cell ;
+           owl:sameAs db:Lymphocytes ;
+           :name "lymphocytes" .
+
+cell:Macrophage a :cell ;
+           owl:sameAs db:Macrophage ;
+           :name "macrophages" .
+
+cell:Dendritic_cell a :cell ;
+           owl:sameAs db:Dendritic_cell ;
+           :name "dendritic cells" .
+
+cell:Astrocytes a :cell ;
+           owl:sameAs db:Astrocytes ;
+           :name "astrocytes" .
+
+cell:Keratinocyte a :cell ;
+           owl:sameAs db:Keratinocyte ;
+           :name "keratinocytes" .
+
+cell:B_cell a :cell ;
+           owl:sameAs db:B_cell ;
+           :name "B cell" .
+
+cell:B_cell a :cell ;
+           owl:sameAs db:B_cell ;
+           :name "B cells" .
+
+cell:CD4%2B_cell a :cell ;
+           owl:sameAs db:CD4%2B_cell ;
+           :name "CD4+ cell" .
+
+cell:CD8%2B_T_cells a :cell ;
+           owl:sameAs db:CD8%2B_T_cells ;
+           :name "CD8+ T cells" .
+
+cell:Bone_marrow_stroma a :cell ;
+           owl:sameAs db:Bone_marrow_stroma ;
+           :name "bone marrow stroma" .
+
+cell:Pro-T_cell a :cell ;
+           owl:sameAs db:Pro-T_cell ;
+           :name "pro-T cell" .
+
+cell:Eosinophil a :cell ;
+           owl:sameAs db:Eosinophil ;
+           :name "eosinophils" .
+
+cell:Regulatory_T_cell a :cell ;
+           owl:sameAs db:Regulatory_T_cell ;
+           :name "regulatory T cells" .
+
+cell:Th1_cell a :cell ;
+           owl:sameAs db:Th1_cell ;
+           :name "Th1 cells" .
+
+cell:Pre-T_cell a :cell ;
+           owl:sameAs db:Pre-T_cell ;
+           :name "pre" .
+
+cell:Bone_marrow_stromal_cells a :cell ;
+           owl:sameAs db:Bone_marrow_stromal_cells ;
+           :name "Bone marrow stromal cells" .
+
+cell:Oligodendrocyte a :cell ;
+           owl:sameAs db:Oligodendrocyte ;
+           :name "oligodendrocytes" .
+
+cell:Memory_CD4%2B_cells a :cell ;
+           owl:sameAs db:Memory_CD4%2B_cells ;
+           :name "memory CD4+ cells" .
+
+cell:Melanocyte a :cell ;
+           owl:sameAs db:Melanocyte ;
+           :name "melanocytes" .
+
+cell:T_helper_17_cell a :cell ;
+           owl:sameAs db:T_helper_17_cell ;
+           :name "T helper 17 cells" .
+
+cell:Monocyte a :cell ;
+           owl:sameAs db:Monocyte ;
+           :name "monocytes" .
+
+cell:Basophil_granulocyte a :cell ;
+           owl:sameAs db:Basophil_granulocyte ;
+           :name "basophils" .
+
+cell:Hematopoietic_stem_cell a :cell ;
+           owl:sameAs db:Hematopoietic_stem_cell ;
+           :name "Hematopoietic stem cell" .
+
+cell:Plasma_cell a :cell ;
+           owl:sameAs db:Plasma_cell ;
+           :name "plasma cell" .
+
+interleukin:Interleukin_32 a interleukin: ;
+                   owl:sameAs db:Interleukin_32 ;
+                   :abbr "IL-32" ;
+                   :name "Interleukin 32" .
+
+interleukin:Interleukin_11 a interleukin: ;
+                   owl:sameAs db:Interleukin_11 ;
+                   :abbr "IL-11" ;
+                   :name "Interleukin 11" .
+
+interleukin:Interleukin_26 a interleukin: ;
+                   owl:sameAs db:Interleukin_26 ;
+                   :abbr "IL-26" ;
+                   :name "Interleukin 26" .
+
+interleukin:Interleukin_14 a interleukin: ;
+                   owl:sameAs db:Interleukin_14 ;
+                   :abbr "IL-14" ;
+                   :name "Interleukin 14" .
+
+interleukin:Interleukin_7 a interleukin: ;
+                   owl:sameAs db:Interleukin_7 ;
+                   :abbr "IL-7" ;
+                   :name "Interleukin 7" .
+
+interleukin:Interleukin_31 a interleukin: ;
+                   owl:sameAs db:Interleukin_31 ;
+                   :abbr "IL-31" ;
+                   :name "Interleukin 31" .
+
+interleukin:Interleukin_1 a interleukin: ;
+                   owl:sameAs db:Interleukin_1 ;
+                   :abbr "IL-1" ;
+                   :name "Interleukin 1" .
+
+interleukin:Interleukin_25 a interleukin: ;
+                   owl:sameAs db:Interleukin_25 ;
+                   :abbr "IL-25" ;
+                   :name "Interleukin 25" .
+
+interleukin:Interleukin_28 a interleukin: ;
+                   owl:sameAs db:Interleukin_28 ;
+                   :abbr "IL-28" ;
+                   :name "Interleukin 28" .
+
+interleukin:Interleukin_13 a interleukin: ;
+                   owl:sameAs db:Interleukin_13 ;
+                   :abbr "IL-13" ;
+                   :name "Interleukin 13" .
+
+interleukin:Interleukin_4 a interleukin: ;
+                   owl:sameAs db:Interleukin_4 ;
+                   :abbr "IL-4" ;
+                   :name "Interleukin 4" .
+
+interleukin:Interleukin_16 a interleukin: ;
+                   owl:sameAs db:Interleukin_16 ;
+                   :abbr "IL-16" ;
+                   :name "Interleukin 16" .
+
+interleukin:Interleukin_22 a interleukin: ;
+                   owl:sameAs db:Interleukin_22 ;
+                   :abbr "IL-22" ;
+                   :name "Interleukin 22" .
+
+interleukin:Interleukin_10 a interleukin: ;
+                   owl:sameAs db:Interleukin_10 ;
+                   :abbr "IL-10" ;
+                   :name "Interleukin 10" .
+
+interleukin:Interleukin_19 a interleukin: ;
+                   owl:sameAs db:Interleukin_19 ;
+                   :abbr "IL-19" ;
+                   :name "Interleukin 19" .
+
+interleukin:Interleukin_3 a interleukin: ;
+                   owl:sameAs db:Interleukin_3 ;
+                   :abbr "IL-3" ;
+                   :name "Interleukin 3" .
+
+interleukin:Interleukin_6 a interleukin: ;
+                   owl:sameAs db:Interleukin_6 ;
+                   :abbr "IL-6" ;
+                   :name "Interleukin 6" .
+
+interleukin:Interleukin_36 a interleukin: ;
+                   owl:sameAs db:Interleukin_36 ;
+                   :abbr "IL-36" ;
+                   :name "Interleukin 36" .
+
+interleukin:Interleukin_8 a interleukin: ;
+                   owl:sameAs db:Interleukin_8 ;
+                   :abbr "IL-8" ;
+                   :abbr "CXCL8" ;
+                   :name "Interleukin 8" .
+
+interleukin:Interleukin_30 a interleukin: ;
+                   owl:sameAs db:Interleukin_30 ;
+                   :abbr "IL-30" ;
+                   :name "Interleukin 30" .
+
+interleukin:Interleukin_18 a interleukin: ;
+                   owl:sameAs db:Interleukin_18 ;
+                   :abbr "IL-18" ;
+                   :name "Interleukin 18" .
+
+interleukin:Interleukin_9 a interleukin: ;
+                   owl:sameAs db:Interleukin_9 ;
+                   :abbr "IL-9" ;
+                   :name "Interleukin 9" .
+
+interleukin:Interleukin_24 a interleukin: ;
+                   owl:sameAs db:Interleukin_24 ;
+                   :abbr "IL-24" ;
+                   :name "Interleukin 24" .
+
+interleukin:Interleukin_27 a interleukin: ;
+                   owl:sameAs db:Interleukin_27 ;
+                   :abbr "IL-27" ;
+                   :name "Interleukin 27" .
+
+interleukin:Interleukin_12 a interleukin: ;
+                   owl:sameAs db:Interleukin_12 ;
+                   :abbr "IL-12" ;
+                   :name "Interleukin 12" .
+
+interleukin:Interleukin_33 a interleukin: ;
+                   owl:sameAs db:Interleukin_33 ;
+                   :abbr "IL-33" ;
+                   :name "Interleukin 33" .
+
+interleukin:Interleukin_15 a interleukin: ;
+                   owl:sameAs db:Interleukin_15 ;
+                   :abbr "IL-15" ;
+                   :name "Interleukin 15" .
+
+interleukin:Interleukin_21 a interleukin: ;
+                   owl:sameAs db:Interleukin_21 ;
+                   :abbr "IL-21" ;
+                   :name "Interleukin 21" .
+
+interleukin:Interleukin_2 a interleukin: ;
+                   owl:sameAs db:Interleukin_2 ;
+                   :abbr "IL-2" ;
+                   :name "Interleukin 2" .
+
+interleukin:Interleukin_35 a interleukin: ;
+                   owl:sameAs db:Interleukin_35 ;
+                   :abbr "IL-35" ;
+                   :name "Interleukin 35" .
+
+interleukin:Interleukin_5 a interleukin: ;
+                   owl:sameAs db:Interleukin_5 ;
+                   :abbr "IL-5" ;
+                   :name "Interleukin 5" .
+
+interleukin:Interleukin_29 a interleukin: ;
+                   owl:sameAs db:Interleukin_29 ;
+                   :abbr "IL-29" ;
+                   :name "Interleukin 29" .
+
+interleukin:Interleukin_20 a interleukin: ;
+                   owl:sameAs db:Interleukin_20 ;
+                   :abbr "IL-20" ;
+                   :name "Interleukin 20" .
+
+interleukin:Interleukin_17 a interleukin: ;
+                   owl:sameAs db:Interleukin_17 ;
+                   :abbr "IL-17" ;
+                   :name "Interleukin 17" .
+
+interleukin:Interleukin_23 a interleukin: ;
+                   owl:sameAs db:Interleukin_23 ;
+                   :abbr "IL-23" ;
+                   :name "Interleukin 23" .
+[] :source cell:Bone_marrow_stroma ;
+                  :substance interleukin:Interleukin_11 ;
+                  :stateActive false .
+[] :source cell:T_cell ;
+                  :substance interleukin:Interleukin_26 ;
+                  :stateActive false .
+[] :source cell:Monocyte ;
+                  :substance interleukin:Interleukin_26 ;
+                  :stateActive false .
+[] :source cell:Bone_marrow_stromal_cells ;
+                  :substance interleukin:Interleukin_7 ;
+                  :stateActive false .
+[] :source cell:Thymus_stromal_cells ;
+                  :substance interleukin:Interleukin_7 ;
+                  :stateActive false .
+[] :source cell:Th2_cell ;
+                  :substance interleukin:Interleukin_31 ;
+                  :stateActive false .
+[] :source cell:Macrophage ;
+                  :substance interleukin:Interleukin_1 ;
+                  :stateActive false .
+[] :source cell:B_cell ;
+                  :substance interleukin:Interleukin_1 ;
+                  :stateActive false .
+[] :source cell:Monocyte ;
+                  :substance interleukin:Interleukin_1 ;
+                  :stateActive false .
+[] :source cell:Dendritic_cell ;
+                  :substance interleukin:Interleukin_1 ;
+                  :stateActive false .
+[] :source cell:T_cell ;
+                  :substance interleukin:Interleukin_25 ;
+                  :stateActive false .
+[] :source cell:Mast_cell ;
+                  :substance interleukin:Interleukin_25 ;
+                  :stateActive false .
+[] :source cell:Eosinophil ;
+                  :substance interleukin:Interleukin_25 ;
+                  :stateActive false .
+[] :source cell:Macrophage ;
+                  :substance interleukin:Interleukin_25 ;
+                  :stateActive false .
+[] :source cell:Epithelial_cel ;
+                  :substance interleukin:Interleukin_25 ;
+                  :descriprion "mucosal epithelial cells" ;
+                  :stateActive false .
+[] :source cell:Th2_cell ;
+                  :substance interleukin:Interleukin_13 ;
+                  :stateActive true .
+[] :source cell:Mast_cell ;
+                  :substance interleukin:Interleukin_13 ;
+                  :stateActive false .
+[] :source cell:Natural_killer_cell ;
+                  :substance interleukin:Interleukin_13 ;
+                  :stateActive false .
+[] :source cell:T_cell ;
+                  :substance interleukin:Interleukin_14 ;
+                  :stateActive false .
+[] :source cell:B_cell ;
+                  :substance interleukin:Interleukin_14 ;
+                  :description "certain malignant" ;
+                  :stateActive false .
+[] :source cell:Macrophage ;
+                  :substance interleukin:Interleukin_15 ;
+                  :description "mononuclear phagocytes (and some other cells), especially macrophages following infection by virus(es)" ;
+                  :stateActive false .
+[] :source cell:Lymphocytes ;
+                  :substance interleukin:Interleukin_16 ;
+                  :stateActive false .
+[] :source cell:Epithelial_cell ;
+                  :substance interleukin:Interleukin_16 ;
+                  :stateActive false .
+[] :source cell:Eosinophil ;
+                  :substance interleukin:Interleukin_16 ;
+                  :stateActive false .
+[] :source cell:CD8%2B_T_cells ;
+                  :substance interleukin:Interleukin_16 ;
+                  :stateActive false .
+[] :source cell:Macrophage ;
+                  :substance interleukin:Interleukin_18 ;
+                  :stateActive false .
+[] :source cell:Keratinocyte ;
+                  :substance interleukin:Interleukin_20 ;
+                  :stateActive true .
+[] :source cell:Monocyte ;
+                  :substance interleukin:Interleukin_20 ;
+                  :stateActive true .
+[] :source cell:T_helper_cell ;
+                  :substance interleukin:Interleukin_21 ;
+                  :stateActive true .
+[] :source cell:Natural_killer_T_cell ;
+                  :substance interleukin:Interleukin_21 ;
+                  :stateActive false .
+[] :source cell:Th2_cell ;
+                  :substance interleukin:Interleukin_4 ;
+                  :stateActive false .
+[] :source cell:CD4%2B_cell ;
+                  :substance interleukin:Interleukin_4 ;
+                  :stateActive false .
+[] :source cell:Memory_CD4%2B_cells ;
+                  :substance interleukin:Interleukin_4 ;
+                  :stateActive false .
+[] :source cell:Mast_cell ;
+                  :substance interleukin:Interleukin_4 ;
+                  :stateActive false .
+[] :source cell:Macrophage ;
+                  :substance interleukin:Interleukin_4 ;
+                  :stateActive false .
+[] :source cell:T_helper_17_cell ;
+                  :substance interleukin:Interleukin_22 ;
+                  :stateActive false .
+[] :source cell:Monocyte ;
+                  :substance interleukin:Interleukin_10 ;
+                  :stateActive false .
+[] :source cell:Th2_cell ;
+                  :substance interleukin:Interleukin_10 ;
+                  :stateActive false .
+[] :source cell:CD8%2B_T_cells ;
+                  :substance interleukin:Interleukin_10 ;
+                  :stateActive false .
+[] :source cell:Mast_cell ;
+                  :substance interleukin:Interleukin_10 ;
+                  :stateActive false .
+[] :source cell:Macrophage ;
+                  :substance interleukin:Interleukin_10 ;
+                  :stateActive false .
+[] :source cell:B_cell ;
+                  :substance interleukin:Interleukin_10 ;
+                  :description "subset" ;
+                  :stateActive false .
+[] :source cell:T_helper_cell ;
+                  :substance interleukin:Interleukin_3 ;
+                  :stateActive true .
+[] :source cell:Mast_cell ;
+                  :substance interleukin:Interleukin_3 ;
+                  :stateActive false .
+[] :source cell:Natural_killer_cell ;
+                  :substance interleukin:Interleukin_3 ;
+                  :stateActive false .
+[] :source cell:Endothelium ;
+                  :substance interleukin:Interleukin_3 ;
+                  :stateActive false .
+[] :source cell:Eosinophil ;
+                  :substance interleukin:Interleukin_3 ;
+                  :stateActive false .
+[] :source cell:Macrophage ;
+                  :substance interleukin:Interleukin_6 ;
+                  :stateActive false .
+[] :source cell:Th2_cell ;
+                  :substance interleukin:Interleukin_6 ;
+                  :stateActive false .
+[] :source cell:B_cell ;
+                  :substance interleukin:Interleukin_6 ;
+                  :stateActive false .
+[] :source cell:Astrocytes ;
+                  :substance interleukin:Interleukin_6 ;
+                  :stateActive false .
+[] :source cell:Endothelium ;
+                  :substance interleukin:Interleukin_6 ;
+                  :stateActive false .
+[] :source cell:Macrophage ;
+                  :substance interleukin:Interleukin_8 ;
+                  :stateActive false .
+[] :source cell:Lymphocytes ;
+                  :substance interleukin:Interleukin_8 ;
+                  :stateActive false .
+[] :source cell:Epithelial_cell ;
+                  :substance interleukin:Interleukin_8 ;
+                  :stateActive false .
+[] :source cell:Endothelium ;
+                  :substance interleukin:Interleukin_8 ;
+                  :stateActive false .
+[] :source cell:Th2_cell ;
+                  :substance interleukin:Interleukin_9 ;
+                  :description "specifically by CD4+ helper cells" ;
+                  :stateActive false .
+[] :source cell:Melanocyte ;
+                  :substance interleukin:Interleukin_24 ;
+                  :stateActive false .
+[] :source cell:Keratinocyte ;
+                  :substance interleukin:Interleukin_24 ;
+                  :stateActive false .
+[] :source cell:Monocyte ;
+                  :substance interleukin:Interleukin_24 ;
+                  :stateActive false .
+[] :source cell:T_cell ;
+                  :substance interleukin:Interleukin_24 ;
+                  :stateActive false .
+[] :source cell:Macrophage ;
+                  :substance interleukin:Interleukin_27 ;
+                  :stateActive false .
+[] :source cell:Dendritic_cell ;
+                  :substance interleukin:Interleukin_27 ;
+                  :stateActive false .
+[] :source cell:Dendritic_cell ;
+                  :substance interleukin:Interleukin_12 ;
+                  :stateActive false .
+[] :source cell:B_cell ;
+                  :substance interleukin:Interleukin_12 ;
+                  :stateActive false .
+[] :source cell:T_cell ;
+                  :substance interleukin:Interleukin_12 ;
+                  :stateActive false .
+[] :source cell:Macrophage ;
+                  :substance interleukin:Interleukin_12 ;
+                  :stateActive false .
+[] :source cell:T_helper_cell ;
+                  :substance interleukin:Interleukin_2 ;
+                  :stateActive false .
+[] :source cell:Regulatory_T_cell ;
+                  :substance interleukin:Interleukin_35 ;
+                  :stateActive false .
+[] :source cell:Th2_cell ;
+                  :substance interleukin:Interleukin_5 ;
+                  :stateActive false .
+[] :source cell:Mast_cell ;
+                  :substance interleukin:Interleukin_5 ;
+                  :stateActive false .
+[] :source cell:Eosinophil ;
+                  :substance interleukin:Interleukin_5 ;
+                  :stateActive false .
+[] :source cell:T_helper_17_cell ;
+                  :substance interleukin:Interleukin_17 ;
+                  :stateActive false .
+[] :source cell:Macrophage ;
+                  :substance interleukin:Interleukin_23 ;
+                  :stateActive false .
+[] :source cell:Dendritic_cell ;
+                  :substance interleukin:Interleukin_23 ;
+                  :stateActive false .
+receptor:CSF2RB a receptor: ;
+  :abbr "CD131" ;
+  :abbr "IL3RB" ;
+:description "CSF2RB" .
+receptor:IL2RA a receptor: ;
+  :abbr "CD25" ;
+  :abbr "IL2RA" ;
+:description "IL2RA" .
+receptor:IL3RA a receptor: ;
+  :abbr "CD123" ;
+  :abbr "IL3RA" ;
+:description "IL3RA" .
+receptor:Interleukin_12_receptor%2C_beta_2_subunit a receptor: ;
+  :abbr "IR12RB2" ;
+:description "Interleukin 12 receptor, beta 2 subunit" .
+receptor:Interleukin_8_receptor%2C_beta a receptor: ;
+  :abbr "CXCR2" ;
+  :abbr "IL8RB" ;
+:description "Interleukin 8 receptor, beta" .
+receptor:Interleukin-6_receptor a receptor: ;
+  :abbr "CD126" ;
+  :abbr "IL6RA" ;
+:description "Interleukin-6 receptor" .
+receptor:Interleukin_11_receptor_alpha_subunit a receptor: ;
+  :abbr "IL11RA" ;
+:description "Interleukin 11 receptor alpha subunit" .
+receptor:Interleukin-9_receptor a receptor: ;
+  :abbr "CD129" ;
+  :abbr "IL9R" ;
+:description "Interleukin-9 receptor" .
+receptor:IL31RA a receptor: ;
+  :abbr "IL31RA" ;
+:description "IL31RA" .
+receptor:Interleukin_1_receptor%2C_type_I a receptor: ;
+  :abbr "CD121a" ;
+  :abbr "IL1R1" ;
+:description "Interleukin 1 receptor, type I" .
+receptor:Interleukin-4_receptor a receptor: ;
+  :abbr "CD124" ;
+  :abbr "IL4R" ;
+:description "Interleukin-4 receptor" .
+receptor:LY6E a receptor: ;
+  :abbr "LY6E" ;
+:description "LY6E" .
+receptor:Interleukin-21_receptor a receptor: ;
+  :abbr "IL21R" ;
+:description "Interleukin-21 receptor" .
+receptor:Glycoprotein_130 a receptor: ;
+  :abbr "CD130" ;
+  :abbr "IR6RB" ;
+:description "Glycoprotein 130" .
+receptor:Interleukin_20_receptor%2C_alpha_subunit a receptor: ;
+  :abbr "IL20R1" ;
+:description "Interleukin 20 receptor, alpha subunit" .
+receptor:IL2RB a receptor: ;
+  :abbr "CD122" ;
+  :abbr "IL2RB" ;
+:description "IL2RB" .
+receptor:Interleukin_1_receptor%2C_type_II a receptor: ;
+  :abbr "CD121b" ;
+  :abbr "IL1R2" ;
+:description "Interleukin 1 receptor, type II" .
+receptor:Interleukin-23_receptor a receptor: ;
+  :abbr "IL23R" ;
+:description "Interleukin-23 receptor" .
+receptor:Common_gamma_chain a receptor: ;
+  :abbr "CD132" ;
+  :abbr "IL2RG" ;
+:description "Common gamma chain" .
+receptor:IL17RA a receptor: ;
+  :abbr "CDw217" ;
+  :abbr "IL17RA" ;
+:description "IL17RA" .
+receptor:Interleukin_10_receptor%2C_beta_subunit a receptor: ;
+  :abbr "CDW210B" ;
+  :abbr "IL10RB" ;
+:description "Interleukin 10 receptor, beta subunit" .
+receptor:Interleukin-20_receptor a receptor: ;
+  :abbr "IL20R" ;
+:description "Interleukin-20 receptor" .
+receptor:Interleukin-7_receptor a receptor: ;
+  :abbr "CD127" ;
+  :abbr "IL7RA" ;
+:description "Interleukin-7 receptor" .
+receptor:Interleukin_27_receptor%2C_alpha_subunit a receptor: ;
+  :abbr "IL27RA" ;
+:description "Interleukin 27 receptor, alpha subunit" .
+receptor:Interleukin_5_receptor_alpha_subunit a receptor: ;
+  :abbr "CD125" ;
+  :abbr "IL5RA" ;
+:description "Interleukin 5 receptor alpha subunit" .
+receptor:Interleukin-28_receptor a receptor: ;
+  :abbr "IL28R" ;
+:description "Interleukin-28 receptor" .
+receptor:Interleukin_15_receptor%2C_alpha_subunit a receptor: ;
+  :abbr "IL15RA" ;
+:description "Interleukin 15 receptor, alpha subunit" .
+receptor:IL17RB a receptor: ;
+  :abbr "IL17RB" ;
+:description "IL17RB" .
+receptor:Interleukin_10_receptor%2C_alpha_subunit a receptor: ;
+  :abbr "CD210" ;
+  :abbr "IL10RA" ;
+:description "Interleukin 10 receptor, alpha subunit" .
+receptor:Interleukin_8_receptor%2C_alpha a receptor: ;
+  :abbr "CXCR1" ;
+  :abbr "IL8RA" ;
+:description "Interleukin 8 receptor, alpha" .
+receptor:Interleukin-13_receptor a receptor: ;
+  :abbr "IL13R" ;
+:description "Interleukin-13 receptor" .
+receptor:CD4 a receptor: ;
+  :abbr "CD4" ;
+:description "CD4" .
+receptor:Interleukin-18_receptor a receptor: ;
+  :abbr "CDw218a" ;
+  :abbr "IL18R1" ;
+:description "Interleukin-18 receptor" .
+receptor:Interleukin-22_receptor a receptor: ;
+  :abbr "IL22R" ;
+:description "Interleukin-22 receptor" .
+receptor:Interleukin_12_receptor%2C_beta_1_subunit a receptor: ;
+  :abbr "CD212" ;
+  :abbr "IL12RB1" ;
+:description "Interleukin 12 receptor, beta 1 subunit" .
+[] :sensor receptor:Interleukin_11_receptor_alpha_subunit ;
+      :senseFor interleukin:Interleukin_11 .
+[] :sensor receptor:Interleukin_20_receptor%2C_alpha_subunit ;
+      :senseFor interleukin:Interleukin_26 .
+[] :sensor receptor:Interleukin-7_receptor ;
+      :senseFor interleukin:Interleukin_7 .
+[] :sensor receptor:Common_gamma_chain ;
+      :senseFor interleukin:Interleukin_7 .
+[] :sensor receptor:IL31RA ;
+      :senseFor interleukin:Interleukin_31 .
+[] :sensor receptor:Interleukin_1_receptor%2C_type_I ;
+      :senseFor interleukin:Interleukin_1 .
+[] :sensor receptor:Interleukin_1_receptor%2C_type_II ;
+      :senseFor interleukin:Interleukin_1 .
+[] :sensor receptor:LY6E ;
+      :senseFor interleukin:Interleukin_25 .
+[] :sensor receptor:Interleukin-28_receptor ;
+      :senseFor interleukin:Interleukin_28 .
+[] :sensor receptor:Interleukin-13_receptor ;
+      :senseFor interleukin:Interleukin_13 .
+[] :sensor receptor:Interleukin-4_receptor ;
+      :senseFor interleukin:Interleukin_4 .
+[] :sensor receptor:Common_gamma_chain ;
+      :senseFor interleukin:Interleukin_4 .
+[] :sensor receptor:CD4 ;
+      :senseFor interleukin:Interleukin_16 .
+[] :sensor receptor:Interleukin-22_receptor ;
+      :senseFor interleukin:Interleukin_22 .
+[] :sensor receptor:Interleukin_10_receptor%2C_alpha_subunit ;
+      :senseFor interleukin:Interleukin_10 .
+[] :sensor receptor:Interleukin_10_receptor%2C_beta_subunit ;
+      :senseFor interleukin:Interleukin_10 .
+[] :sensor receptor:Interleukin-20_receptor ;
+      :senseFor interleukin:Interleukin_19 .
+[] :sensor receptor:IL3RA ;
+      :senseFor interleukin:Interleukin_3 .
+[] :sensor receptor:CSF2RB ;
+      :senseFor interleukin:Interleukin_3 .
+[] :sensor receptor:Interleukin-6_receptor ;
+      :senseFor interleukin:Interleukin_6 .
+[] :sensor receptor:Glycoprotein_130 ;
+      :senseFor interleukin:Interleukin_6 .
+[] :sensor receptor:Interleukin_8_receptor%2C_alpha ;
+      :senseFor interleukin:Interleukin_8 .
+[] :sensor receptor:Interleukin_8_receptor%2C_beta ;
+      :senseFor interleukin:Interleukin_8 .
+[] :sensor receptor:Interleukin-18_receptor ;
+      :senseFor interleukin:Interleukin_18 .
+[] :sensor receptor:Interleukin-9_receptor ;
+      :senseFor interleukin:Interleukin_9 .
+[] :sensor receptor:Interleukin-20_receptor ;
+      :senseFor interleukin:Interleukin_24 .
+[] :sensor receptor:Interleukin_27_receptor%2C_alpha_subunit ;
+      :senseFor interleukin:Interleukin_27 .
+[] :sensor receptor:Interleukin_12_receptor%2C_beta_1_subunit ;
+      :senseFor interleukin:Interleukin_12 .
+[] :sensor receptor:Interleukin_12_receptor%2C_beta_2_subunit ;
+      :senseFor interleukin:Interleukin_12 .
+[] :sensor receptor:Interleukin_15_receptor%2C_alpha_subunit ;
+      :senseFor interleukin:Interleukin_15 .
+[] :sensor receptor:Interleukin-21_receptor ;
+      :senseFor interleukin:Interleukin_21 .
+[] :sensor receptor:IL2RA ;
+      :senseFor interleukin:Interleukin_2 .
+[] :sensor receptor:IL2RB ;
+      :senseFor interleukin:Interleukin_2 .
+[] :sensor receptor:Common_gamma_chain ;
+      :senseFor interleukin:Interleukin_2 .
+[] :sensor receptor:Interleukin_5_receptor_alpha_subunit ;
+      :senseFor interleukin:Interleukin_5 .
+[] :sensor receptor:CSF2RB ;
+      :senseFor interleukin:Interleukin_5 .
+[] :sensor receptor:Interleukin-20_receptor ;
+      :senseFor interleukin:Interleukin_20 .
+[] :sensor receptor:IL17RA ;
+      :senseFor interleukin:Interleukin_17 .
+[] :sensor receptor:IL17RB ;
+      :senseFor interleukin:Interleukin_17 .
+[] :sensor receptor:Interleukin-23_receptor ;
+      :senseFor interleukin:Interleukin_23 .
+
+[] a :action ;
+    :component interleukin:Interleukin_32 ;
+    :description "<td>Induces monocytes and macrophages to secrete <a class=\"mw-redirect\" title=\"TNF-\u03B1\" href=\"/wiki/TNF-%CE%B1\">TNF-\u03B1</a>, <a title=\"Interleukin 8\" href=\"/wiki/Interleukin_8\">IL-8</a> and <a title=\"CXCL2\" href=\"/wiki/CXCL2\">CXCL2</a></td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_11 ;
+    :target cell:Bone_marrow_stroma ;
+    :description "<td><a class=\"mw-redirect\" title=\"Acute phase protein\" href=\"/wiki/Acute_phase_protein\">acute phase protein</a> production, <a title=\"Osteoclast\" href=\"/wiki/Osteoclast\">osteoclast</a> formation</td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_26 ;
+    :description "<td>Enhances secretion of <a title=\"Interleukin 10\" href=\"/wiki/Interleukin_10\">IL-10</a> and <a title=\"Interleukin 8\" href=\"/wiki/Interleukin_8\">IL-8</a> and cell surface expression of <a class=\"mw-redirect\" title=\"CD54\" href=\"/wiki/CD54\">CD54</a> on <a class=\"mw-redirect\" title=\"Epithelial cell\" href=\"/wiki/Epithelial_cell\">epithelial cells</a></td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_14 ;
+    :target cell:B_cell ;
+    :stateActive true ;
+    :description "<td>controls the growth and proliferation of <a title=\"B cell\" href=\"/wiki/B_cell\">B cells</a>, inhibits Ig secretion</td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_7 ;
+    :target cell:Pre-B_cell ;
+    :description "<td>differentiation and proliferation of lymphoid progenitor cells, involved in B, T, and NK cell survival, development, and homeostasis, \u2191<a class=\"mw-redirect\" title=\"Proinflammatory\" href=\"/wiki/Proinflammatory\">proinflammatory</a> cytokines</td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_7 ;
+    :target cell:Pro-B_cell ;
+    :description "<td>differentiation and proliferation of lymphoid progenitor cells, involved in B, T, and NK cell survival, development, and homeostasis, \u2191<a class=\"mw-redirect\" title=\"Proinflammatory\" href=\"/wiki/Proinflammatory\">proinflammatory</a> cytokines</td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_7 ;
+    :target cell:Pre-T_cell ;
+    :description "<td>differentiation and proliferation of lymphoid progenitor cells, involved in B, T, and NK cell survival, development, and homeostasis, \u2191<a class=\"mw-redirect\" title=\"Proinflammatory\" href=\"/wiki/Proinflammatory\">proinflammatory</a> cytokines</td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_7 ;
+    :target cell:Pro-T_cell ;
+    :description "<td>differentiation and proliferation of lymphoid progenitor cells, involved in B, T, and NK cell survival, development, and homeostasis, \u2191<a class=\"mw-redirect\" title=\"Proinflammatory\" href=\"/wiki/Proinflammatory\">proinflammatory</a> cytokines</td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_31 ;
+    :description "<td>May play a role in <a title=\"Inflammation\" href=\"/wiki/Inflammation\">inflammation</a> of the <a title=\"Skin\" href=\"/wiki/Skin\">skin</a></td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_1 ;
+    :target cell:T_helper_cell ;
+    :description "<td>co-stimulation <sup id=\"cite_ref-arizona_39-2\" class=\"reference\"><a href=\"#cite_note-arizona-39\"><span>[</span>39<span>]</span></a></sup></td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_1 ;
+    :target cell:B_cell ;
+    :description "<td>maturation &amp; proliferation <sup id=\"cite_ref-arizona_39-3\" class=\"reference\"><a href=\"#cite_note-arizona-39\"><span>[</span>39<span>]</span></a></sup></td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_1 ;
+    :target cell:Natural_killer_cell ;
+    :description "<td>activation<sup id=\"cite_ref-arizona_39-4\" class=\"reference\"><a href=\"#cite_note-arizona-39\"><span>[</span>39<span>]</span></a></sup></td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_1 ;
+    :target cell:Macrophage ;
+    :description "<td><a title=\"Inflammation\" href=\"/wiki/Inflammation\">inflammation</a>,<sup class=\"reference\" id=\"cite_ref-arizona_39-5\"><a href=\"#cite_note-arizona-39\"><span>[</span>39<span>]</span></a></sup> small amounts induce <a class=\"mw-redirect\" title=\"Acute phase protein\" href=\"/wiki/Acute_phase_protein\">acute phase reaction</a>, large amounts induce <a title=\"Fever\" href=\"/wiki/Fever\">fever</a></td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_1 ;
+    :target cell:Endothelium ;
+    :description "<td><a title=\"Inflammation\" href=\"/wiki/Inflammation\">inflammation</a>,<sup class=\"reference\" id=\"cite_ref-arizona_39-5\"><a href=\"#cite_note-arizona-39\"><span>[</span>39<span>]</span></a></sup> small amounts induce <a class=\"mw-redirect\" title=\"Acute phase protein\" href=\"/wiki/Acute_phase_protein\">acute phase reaction</a>, large amounts induce <a title=\"Fever\" href=\"/wiki/Fever\">fever</a></td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_1 ;
+    :description "<td><a title=\"Inflammation\" href=\"/wiki/Inflammation\">inflammation</a>,<sup class=\"reference\" id=\"cite_ref-arizona_39-5\"><a href=\"#cite_note-arizona-39\"><span>[</span>39<span>]</span></a></sup> small amounts induce <a class=\"mw-redirect\" title=\"Acute phase protein\" href=\"/wiki/Acute_phase_protein\">acute phase reaction</a>, large amounts induce <a title=\"Fever\" href=\"/wiki/Fever\">fever</a></td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_25 ;
+    :description "<td>Induces the production <a class=\"mw-redirect\" title=\"Interleukin-4\" href=\"/wiki/Interleukin-4\">IL-4</a>, <a title=\"Interleukin 5\" href=\"/wiki/Interleukin_5\">IL-5</a> and <a title=\"Interleukin 13\" href=\"/wiki/Interleukin_13\">IL-13</a>, which stimulate <a class=\"mw-redirect\" title=\"Eosinophil\" href=\"/wiki/Eosinophil\">eosinophil</a> expansion</td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_28 ;
+    :description "<td>Plays a role in immune defense against <a title=\"Virus\" href=\"/wiki/Virus\">viruses</a></td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_13 ;
+    :target cell:Th2_cell ;
+    :description "<td>Stimulates growth and differentiation of <a title=\"B cell\" href=\"/wiki/B_cell\">B cells</a> (<a class=\"mw-redirect\" title=\"IgE\" href=\"/wiki/IgE\">IgE</a>), inhibits <a title=\"T helper cell\" href=\"/wiki/T_helper_cell\">TH1-cells</a> and the production of <a class=\"mw-redirect\" title=\"Macrophage inflammatory cytokines\" href=\"/wiki/Macrophage_inflammatory_cytokines\">macrophage inflammatory cytokines</a> (e.g. IL-1, IL-6), \u2193 IL-8, IL-10, IL-12</td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_13 ;
+    :target cell:B_cell ;
+    :description "<td>Stimulates growth and differentiation of <a title=\"B cell\" href=\"/wiki/B_cell\">B cells</a> (<a class=\"mw-redirect\" title=\"IgE\" href=\"/wiki/IgE\">IgE</a>), inhibits <a title=\"T helper cell\" href=\"/wiki/T_helper_cell\">TH1-cells</a> and the production of <a class=\"mw-redirect\" title=\"Macrophage inflammatory cytokines\" href=\"/wiki/Macrophage_inflammatory_cytokines\">macrophage inflammatory cytokines</a> (e.g. IL-1, IL-6), \u2193 IL-8, IL-10, IL-12</td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_13 ;
+    :target cell:Macrophage ;
+    :description "<td>Stimulates growth and differentiation of <a title=\"B cell\" href=\"/wiki/B_cell\">B cells</a> (<a class=\"mw-redirect\" title=\"IgE\" href=\"/wiki/IgE\">IgE</a>), inhibits <a title=\"T helper cell\" href=\"/wiki/T_helper_cell\">TH1-cells</a> and the production of <a class=\"mw-redirect\" title=\"Macrophage inflammatory cytokines\" href=\"/wiki/Macrophage_inflammatory_cytokines\">macrophage inflammatory cytokines</a> (e.g. IL-1, IL-6), \u2193 IL-8, IL-10, IL-12</td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_4 ;
+    :target cell:B_cell ;
+    :stateActive true ;
+    :description "<td>proliferation and differentiation, <a href=\"/wiki/IgG1\" title=\"IgG1\" class=\"mw-redirect\">IgG1</a> and <a href=\"/wiki/Immunoglobulin_E\" title=\"Immunoglobulin E\">IgE</a> synthesis.<sup id=\"cite_ref-arizona_39-10\" class=\"reference\"><a href=\"#cite_note-arizona-39\"><span>[</span>39<span>]</span></a></sup> Important role in <a href=\"/wiki/Allergic\" title=\"Allergic\" class=\"mw-redirect\">allergic</a> response (<a href=\"/wiki/IgE\" title=\"IgE\" class=\"mw-redirect\">IgE</a>)</td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_4 ;
+    :target cell:T_cell ;
+    :description "<td>proliferation<sup id=\"cite_ref-arizona_39-11\" class=\"reference\"><a href=\"#cite_note-arizona-39\"><span>[</span>39<span>]</span></a></sup></td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_4 ;
+    :target cell:Endothelium .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_16 ;
+    :target cell:T_helper_cell ;
+    :description "CD4+ T cells (Th-cells)" ;
+    :description "<td><a title=\"CD4\" href=\"/wiki/CD4\">CD4</a>+ chemoattractant</td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_22 ;
+    :description "<td>Production of defensins from epithelial cells.<sup class=\"reference\" id=\"cite_ref-Abbas_2012_30-1\"><a href=\"#cite_note-Abbas_2012-30\"><span>[</span>30<span>]</span></a></sup> Activates <a title=\"STAT1\" href=\"/wiki/STAT1\">STAT1</a> and <a title=\"STAT3\" href=\"/wiki/STAT3\">STAT3</a> and increases production of <a class=\"mw-redirect\" title=\"Acute phase protein\" href=\"/wiki/Acute_phase_protein\">acute phase proteins</a> such as <a title=\"Serum amyloid A\" href=\"/wiki/Serum_amyloid_A\">serum amyloid A</a>, <a title=\"Alpha 1-antichymotrypsin\" href=\"/wiki/Alpha_1-antichymotrypsin\">Alpha 1-antichymotrypsin</a> and <a title=\"Haptoglobin\" href=\"/wiki/Haptoglobin\">haptoglobin</a> in <a class=\"mw-redirect\" title=\"Hepatoma\" href=\"/wiki/Hepatoma\">hepatoma</a> cell lines</td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_10 ;
+    :target cell:Macrophage ;
+    :description "<td>cytokine production<sup id=\"cite_ref-arizona_39-12\" class=\"reference\"><a href=\"#cite_note-arizona-39\"><span>[</span>39<span>]</span></a></sup></td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_10 ;
+    :target cell:B_cell ;
+    :description "<td>activation <sup id=\"cite_ref-arizona_39-13\" class=\"reference\"><a href=\"#cite_note-arizona-39\"><span>[</span>39<span>]</span></a></sup></td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_10 ;
+    :target cell:Mast_cell .
+
+[] a :action ;
+    :component interleukin:Interleukin_10 ;
+    :target cell:Th1_cell ;
+    :description "<td>inhibits <a href=\"/wiki/T_helper_cell\" title=\"T helper cell\">Th1</a> cytokine production (<a href=\"/wiki/IFN-%CE%B3\" title=\"IFN-γ\" class=\"mw-redirect\">IFN-γ</a>, <a href=\"/wiki/TNF-%CE%B2\" title=\"TNF-β\" class=\"mw-redirect\">TNF-β</a>, <a href=\"/wiki/Interleukin_2\" title=\"Interleukin 2\">IL-2</a>)</td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_10 ;
+    :target cell:Th2_cell ;
+    :description "<td>Stimulation</td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_3 ;
+    :target cell:Hematopoietic_stem_cell ;
+    :description "<td>differentiation and proliferation of myeloid progenitor cells <sup id=\"cite_ref-arizona_39-8\" class=\"reference\"><a href=\"#cite_note-arizona-39\"><span>[</span>39<span>]</span></a></sup> to e.g. <a href=\"/wiki/Erythrocytes\" title=\"Erythrocytes\" class=\"mw-redirect\">erythrocytes</a>, <a href=\"/wiki/Granulocytes\" title=\"Granulocytes\" class=\"mw-redirect\">granulocytes</a></td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_3 ;
+    :target cell:Mast_cell ;
+    :description "<td>growth and <a title=\"Histamine\" href=\"/wiki/Histamine\">histamine</a> release<sup class=\"reference\" id=\"cite_ref-arizona_39-9\"><a href=\"#cite_note-arizona-39\"><span>[</span>39<span>]</span></a></sup></td>" .
+
+
+[] a :actilon ;
+    :component interleukin:Interleukin_6 ;
+    :target cell:B_cell ;
+    :stateActive true ;
+    :description "<td>differentiation into <a href=\"/wiki/Plasma_cell\" title=\"Plasma cell\">plasma cells</a></td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_6 ;
+    :target cell:Plasma_cell ;
+    :description "<td><a href=\"/wiki/Antibody\" title=\"Antibody\">antibody</a> secretion</td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_6 ;
+    :target cell:Hematopoietic_stem_cell ;
+    :description "<td>differentiation</td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_6 ;
+    :target cell:T_cell ;
+    :description "<td>induces <a class=\"mw-redirect\" title=\"Acute phase protein\" href=\"/wiki/Acute_phase_protein\">acute phase reaction</a>, <a class=\"mw-redirect\" title=\"Hematopoiesis\" href=\"/wiki/Hematopoiesis\">hematopoiesis</a>, <a class=\"mw-redirect\" title=\"Differentiation (cellular)\" href=\"/wiki/Differentiation_(cellular)\">differentiation</a>, <a title=\"Inflammation\" href=\"/wiki/Inflammation\">inflammation</a></td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_36 ;
+    :description "<td>Regulates <a title=\"Dendritic cell\" href=\"/wiki/Dendritic_cell\">DC</a> and <a title=\"T cell\" href=\"/wiki/T_cell\">T cell</a> responses</td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_8 ;
+    :target cell:Neutrophil_granulocyte ;
+    :description "<td>Neutrophil <a title=\"Chemotaxis\" href=\"/wiki/Chemotaxis\">chemotaxis</a></td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_8 ;
+    :target cell:Basophil_granulocyte ;
+    :description "<td>Neutrophil <a title=\"Chemotaxis\" href=\"/wiki/Chemotaxis\">chemotaxis</a></td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_8 ;
+    :target cell:Lymphocytes ;
+    :description "<td>Neutrophil <a title=\"Chemotaxis\" href=\"/wiki/Chemotaxis\">chemotaxis</a></td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_30 ;
+    :description "<td>Forms one chain of <a class=\"mw-redirect\" title=\"IL-27\" href=\"/wiki/IL-27\">IL-27</a></td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_18 ;
+    :target cell:T_helper_cell ;
+    :description "<td>Induces production of <a class=\"mw-redirect\" title=\"Interferon-gamma\" href=\"/wiki/Interferon-gamma\">IFN\u03B3</a>, \u2191 NK cell activity</td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_18 ;
+    :target cell:Natural_killer_cell ;
+    :description "<td>Induces production of <a class=\"mw-redirect\" title=\"Interferon-gamma\" href=\"/wiki/Interferon-gamma\">IFN\u03B3</a>, \u2191 NK cell activity</td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_9 ;
+    :target cell:T_cell .
+
+[] a :action ;
+    :component interleukin:Interleukin_9 ;
+    :target cell:B_cell ;
+    :description "<td>Potentiates <a title=\"Immunoglobulin M\" href=\"/wiki/Immunoglobulin_M\">IgM</a>, <a title=\"Immunoglobulin G\" href=\"/wiki/Immunoglobulin_G\">IgG</a>, <a title=\"Immunoglobulin E\" href=\"/wiki/Immunoglobulin_E\">IgE</a>, stimulates <a title=\"Mast cell\" href=\"/wiki/Mast_cell\">mast cells</a></td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_9 ;
+    :target cell:Must_cell ;
+    :description "<td>Potentiates <a title=\"Immunoglobulin M\" href=\"/wiki/Immunoglobulin_M\">IgM</a>, <a title=\"Immunoglobulin G\" href=\"/wiki/Immunoglobulin_G\">IgG</a>, <a title=\"Immunoglobulin E\" href=\"/wiki/Immunoglobulin_E\">IgE</a>, stimulates <a title=\"Mast cell\" href=\"/wiki/Mast_cell\">mast cells</a></td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_24 ;
+    :description "<td>Plays important roles in <a class=\"mw-redirect\" title=\"Tumor suppression\" href=\"/wiki/Tumor_suppression\">tumor suppression</a>, wound healing and <a title=\"Psoriasis\" href=\"/wiki/Psoriasis\">psoriasis</a> by influencing cell survival, inflammatory cytokine expression.</td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_27 ;
+    :description "<td>Regulates the activity of <a class=\"mw-redirect\" title=\"B lymphocyte\" href=\"/wiki/B_lymphocyte\">B lymphocyte</a> and <a class=\"mw-redirect\" title=\"T lymphocyte\" href=\"/wiki/T_lymphocyte\">T lymphocytes</a></td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_12 ;
+    :target cell:T_cell ;
+    :stateActive true ;
+    :description "<td>differentiation into <a href=\"/wiki/Cytotoxic_T_cell\" title=\"Cytotoxic T cell\">Cytotoxic T cells</a> with IL-2,<sup id=\"cite_ref-arizona_39-15\" class=\"reference\"><a href=\"#cite_note-arizona-39\"><span>[</span>39<span>]</span></a></sup> ↑ <a href=\"/wiki/IFN-%CE%B3\" title=\"IFN-γ\" class=\"mw-redirect\">IFN-γ</a>, <a href=\"/wiki/TNF-%CE%B1\" title=\"TNF-α\" class=\"mw-redirect\">TNF-α</a>, ↓ IL-10</td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_12 ;
+    :target cell:Natural_killer_cell ;
+    :description "<td>\u2191 <a class=\"mw-redirect\" title=\"IFN-\u03B3\" href=\"/wiki/IFN-%CE%B3\">IFN-\u03B3</a>, <a class=\"mw-redirect\" title=\"TNF-\u03B1\" href=\"/wiki/TNF-%CE%B1\">TNF-\u03B1</a></td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_33 ;
+    :description "<td>Induces <a class=\"mw-redirect\" title=\"Helper T cell\" href=\"/wiki/Helper_T_cell\">helper T cells</a> to produce <a class=\"mw-redirect\" title=\"Type 2 cytokine\" href=\"/wiki/Type_2_cytokine\">type 2 cytokine</a></td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_15 ;
+    :target cell:T_cell ;
+    :description "<td>Induces production of <a class=\"mw-redirect\" title=\"Natural killer cells\" href=\"/wiki/Natural_killer_cells\">Natural killer cells</a></td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_15 ;
+    :target cell:B_cell ;
+    :stateActive true ;
+    :description "<td>Induces production of <a class=\"mw-redirect\" title=\"Natural killer cells\" href=\"/wiki/Natural_killer_cells\">Natural killer cells</a></td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_21 ;
+    :target cell:Lymphocytes ;
+    :description "<td>costimulates activation and proliferation of CD8+ T cells, augment NK cytotoxicity, augments CD40-driven B cell proliferation, differentiation and isotype switching, promotes differentiation of Th17 cells</td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_21 ;
+    :target cell:Dendritic_cell ;
+    :description "<td>costimulates activation and proliferation of CD8+ T cells, augment NK cytotoxicity, augments CD40-driven B cell proliferation, differentiation and isotype switching, promotes differentiation of Th17 cells</td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_2 ;
+    :target cell:T_cell ;
+    :stateActive true ;
+    :description "<td>stimulates growth and differentiation of T cell response. Can be used in <a title=\"Immunotherapy\" href=\"/wiki/Immunotherapy\">immunotherapy</a> to treat cancer or suppressed for transplant patients. Has also been used in clinical trials (ESPIRIT. Stalwart) to raise CD4 counts in HIV positive patients.</td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_2 ;
+    :target cell:B_cell ;
+    :stateActive true ;
+    :description "<td>stimulates growth and differentiation of T cell response. Can be used in <a title=\"Immunotherapy\" href=\"/wiki/Immunotherapy\">immunotherapy</a> to treat cancer or suppressed for transplant patients. Has also been used in clinical trials (ESPIRIT. Stalwart) to raise CD4 counts in HIV positive patients.</td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_2 ;
+    :target cell:NT_cell ;
+    :description "<td>stimulates growth and differentiation of T cell response. Can be used in <a title=\"Immunotherapy\" href=\"/wiki/Immunotherapy\">immunotherapy</a> to treat cancer or suppressed for transplant patients. Has also been used in clinical trials (ESPIRIT. Stalwart) to raise CD4 counts in HIV positive patients.</td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_2 ;
+    :target cell:Macrophage ;
+    :description "<td>stimulates growth and differentiation of T cell response. Can be used in <a title=\"Immunotherapy\" href=\"/wiki/Immunotherapy\">immunotherapy</a> to treat cancer or suppressed for transplant patients. Has also been used in clinical trials (ESPIRIT. Stalwart) to raise CD4 counts in HIV positive patients.</td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_2 ;
+    :target cell:Oligodendrocyte ;
+    :description "<td>stimulates growth and differentiation of T cell response. Can be used in <a title=\"Immunotherapy\" href=\"/wiki/Immunotherapy\">immunotherapy</a> to treat cancer or suppressed for transplant patients. Has also been used in clinical trials (ESPIRIT. Stalwart) to raise CD4 counts in HIV positive patients.</td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_35 ;
+    :description "<td>Suppression of T helper cell activation</td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_5 ;
+    :target cell:Eosinophil_granulocyte ;
+    :description "<td>production</td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_5 ;
+    :target cell:B_cell ;
+    :description "<td>differentiation, <a class=\"mw-redirect\" title=\"IgA\" href=\"/wiki/IgA\">IgA</a> production</td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_29 ;
+    :description "<td>Plays a role in host defenses against <a class=\"mw-redirect\" title=\"Microbe\" href=\"/wiki/Microbe\">microbes</a></td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_20 ;
+    :target cell:Keratinocyte ;
+    :description "<td>regulates proliferation and differentiation of <a title=\"Keratinocyte\" href=\"/wiki/Keratinocyte\">keratinocytes</a></td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_17 ;
+    :target cell:Epithelial_cell ;
+    :description "<td><a title=\"Osteoclastogenesis (page does not exist)\" class=\"new\" href=\"/w/index.php?title=Osteoclastogenesis&amp;action=edit&amp;redlink=1\">osteoclastogenesis</a>, <a title=\"Angiogenesis\" href=\"/wiki/Angiogenesis\">angiogenesis</a>, \u2191 inflammatory <a class=\"mw-redirect\" title=\"Cytokines\" href=\"/wiki/Cytokines\">cytokines</a></td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_17 ;
+    :target cell:Endothelium ;
+    :description "<td><a title=\"Osteoclastogenesis (page does not exist)\" class=\"new\" href=\"/w/index.php?title=Osteoclastogenesis&amp;action=edit&amp;redlink=1\">osteoclastogenesis</a>, <a title=\"Angiogenesis\" href=\"/wiki/Angiogenesis\">angiogenesis</a>, \u2191 inflammatory <a class=\"mw-redirect\" title=\"Cytokines\" href=\"/wiki/Cytokines\">cytokines</a></td>" .
+
+[] a :action ;
+    :component interleukin:Interleukin_17 ;
+    :description "<td><a title=\"Osteoclastogenesis (page does not exist)\" class=\"new\" href=\"/w/index.php?title=Osteoclastogenesis&amp;action=edit&amp;redlink=1\">osteoclastogenesis</a>, <a title=\"Angiogenesis\" href=\"/wiki/Angiogenesis\">angiogenesis</a>, \u2191 inflammatory <a class=\"mw-redirect\" title=\"Cytokines\" href=\"/wiki/Cytokines\">cytokines</a></td>" .
+
+
+[] a :action ;
+    :component interleukin:Interleukin_23 ;
+    :description "<td>Maintenance of IL-17 producing cells,<sup class=\"reference\" id=\"cite_ref-Abbas_2012_30-2\"><a href=\"#cite_note-Abbas_2012-30\"><span>[</span>30<span>]</span></a></sup> increases <a title=\"Angiogenesis\" href=\"/wiki/Angiogenesis\">angiogenesis</a> but reduces <a title=\"CD8\" href=\"/wiki/CD8\">CD8</a> T-cell infiltration</td>" .
