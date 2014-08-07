@@ -3,7 +3,7 @@
 @prefix rdf: <http:www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http:www.w3.org/2001/XMLSchema#> .
 
-@prefix db: <http:dbpedia.org/resourse/>
+@prefix db: <http:dbpedia.org/resourse/> .
 
 @prefix : <http:git-hub.com/potan/immuntology/> .
 @prefix cell: <http:git-hub.com/potan/immuntology/cell/> .
