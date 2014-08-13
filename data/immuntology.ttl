@@ -13,324 +13,324 @@
 
 
 cell:Epithelial_cell a :cell ;
-           owl:sameAs db:Epithelial_cell ;
+           :dbpedia_entry db:Epithelial_cell ;
            :name "epithelial cells" .
 
 cell:Pro-B_cell a :cell ;
-           owl:sameAs db:Pro-B_cell ;
+           :dbpedia_entry db:Pro-B_cell ;
            :name "pro-B cell" .
 
 cell:T_cell a :cell ;
-           owl:sameAs db:T_cell ;
+           :dbpedia_entry db:T_cell ;
            :name "T cells" .
 
 cell:Neutrophil_granulocyte a :cell ;
-           owl:sameAs db:Neutrophil_granulocyte ;
+           :dbpedia_entry db:Neutrophil_granulocyte ;
            :name "neutrophils" .
 
 cell:T_helper_cell a :cell ;
-           owl:sameAs db:T_helper_cell ;
+           :dbpedia_entry db:T_helper_cell ;
            :name "T helper cells" ;
            :name "Th1-cells" .
 
 cell:Natural_killer_cell a :cell ;
-           owl:sameAs db:Natural_killer_cell ;
+           :dbpedia_entry db:Natural_killer_cell ;
            :name "NK cells" .
 
 cell:Natural_killer_T_cell a :cell ;
-           owl:sameAs db:Natural_killer_T_cell ;
+           :dbpedia_entry db:Natural_killer_T_cell ;
            :name "NKT cells" .
 
 cell:Endothelium a :cell ;
-           owl:sameAs db:Endothelium ;
+           :dbpedia_entry db:Endothelium ;
            :name "endothelial cells" ;
            :name "endothelium" .
 
 cell:Hematopoietic_stem_cell a :cell ;
-           owl:sameAs db:Hematopoietic_stem_cell ;
+           :dbpedia_entry db:Hematopoietic_stem_cell ;
            :name "hematopoietic stem cells" .
 
 cell:Mast_cell a :cell ;
-           owl:sameAs db:Mast_cell ;
+           :dbpedia_entry db:Mast_cell ;
            :name "mast cells" .
 
 cell:Th2_cell a :cell ;
-           owl:sameAs db:Th2_cell ;
+           :dbpedia_entry db:Th2_cell ;
            :name "Th2 cells" .
 
 cell:Thymus_stromal_cells a :cell ;
-           owl:sameAs db:Thymus_stromal_cells ;
+           :dbpedia_entry db:Thymus_stromal_cells ;
            :name "thymus stromal cells" .
 
 cell:Lymphocytes a :cell ;
-           owl:sameAs db:Lymphocytes ;
+           :dbpedia_entry db:Lymphocytes ;
            :name "lymphocytes" .
 
 cell:Macrophage a :cell ;
-           owl:sameAs db:Macrophage ;
+           :dbpedia_entry db:Macrophage ;
            :name "macrophages" .
 
 cell:Dendritic_cell a :cell ;
-           owl:sameAs db:Dendritic_cell ;
+           :dbpedia_entry db:Dendritic_cell ;
            :name "dendritic cells" .
 
 cell:Astrocytes a :cell ;
-           owl:sameAs db:Astrocytes ;
+           :dbpedia_entry db:Astrocytes ;
            :name "astrocytes" .
 
 cell:Keratinocyte a :cell ;
-           owl:sameAs db:Keratinocyte ;
+           :dbpedia_entry db:Keratinocyte ;
            :name "keratinocytes" .
 
 cell:B_cell a :cell ;
-           owl:sameAs db:B_cell ;
+           :dbpedia_entry db:B_cell ;
            :name "B cell" .
 
 cell:B_cell a :cell ;
-           owl:sameAs db:B_cell ;
+           :dbpedia_entry db:B_cell ;
            :name "B cells" .
 
 <http://git-hub.com/potan/immuntology/cell/CD4%2B_cell> a :cell ;
-           owl:sameAs <http://dbpedia.org/resourse/CD4%2B_cell> ;
+           :dbpedia_entry <http://dbpedia.org/resourse/CD4%2B_cell> ;
            :name "CD4+ cell" .
 
 <http://git-hub.com/potan/immuntology/cell/CD8%2B_T_cells> a :cell ;
-           owl:sameAs <http://dbpedia.org/resourse/CD8%2B_T_cells> ;
+           :dbpedia_entry <http://dbpedia.org/resourse/CD8%2B_T_cells> ;
            :name "CD8+ T cells" .
 
 cell:Bone_marrow_stroma a :cell ;
-           owl:sameAs db:Bone_marrow_stroma ;
+           :dbpedia_entry db:Bone_marrow_stroma ;
            :name "bone marrow stroma" .
 
 cell:Pro-T_cell a :cell ;
-           owl:sameAs db:Pro-T_cell ;
+           :dbpedia_entry db:Pro-T_cell ;
            :name "pro-T cell" .
 
 cell:Eosinophil a :cell ;
-           owl:sameAs db:Eosinophil ;
+           :dbpedia_entry db:Eosinophil ;
            :name "eosinophils" .
 
 cell:Regulatory_T_cell a :cell ;
-           owl:sameAs db:Regulatory_T_cell ;
+           :dbpedia_entry db:Regulatory_T_cell ;
            :name "regulatory T cells" .
 
 cell:Th1_cell a :cell ;
-           owl:sameAs db:Th1_cell ;
+           :dbpedia_entry db:Th1_cell ;
            :name "Th1 cells" .
 
 cell:Pre-T_cell a :cell ;
-           owl:sameAs db:Pre-T_cell ;
+           :dbpedia_entry db:Pre-T_cell ;
            :name "pre" .
 
 cell:Bone_marrow_stromal_cells a :cell ;
-           owl:sameAs db:Bone_marrow_stromal_cells ;
+           :dbpedia_entry db:Bone_marrow_stromal_cells ;
            :name "Bone marrow stromal cells" .
 
 cell:Oligodendrocyte a :cell ;
-           owl:sameAs db:Oligodendrocyte ;
+           :dbpedia_entry db:Oligodendrocyte ;
            :name "oligodendrocytes" .
 
 <http://git-hub.com/potan/immuntology/cell/Memory_CD4%2B_cells> a :cell ;
-           owl:sameAs <http://dbpedia.org/resourse/Memory_CD4%2B_cells> ;
+           :dbpedia_entry <http://dbpedia.org/resourse/Memory_CD4%2B_cells> ;
            :name "memory CD4+ cells" .
 
 cell:Melanocyte a :cell ;
-           owl:sameAs db:Melanocyte ;
+           :dbpedia_entry db:Melanocyte ;
            :name "melanocytes" .
 
 cell:T_helper_17_cell a :cell ;
-           owl:sameAs db:T_helper_17_cell ;
+           :dbpedia_entry db:T_helper_17_cell ;
            :name "T helper 17 cells" .
 
 cell:Monocyte a :cell ;
-           owl:sameAs db:Monocyte ;
+           :dbpedia_entry db:Monocyte ;
            :name "monocytes" .
 
 cell:Basophil_granulocyte a :cell ;
-           owl:sameAs db:Basophil_granulocyte ;
+           :dbpedia_entry db:Basophil_granulocyte ;
            :name "basophils" .
 
 cell:Hematopoietic_stem_cell a :cell ;
-           owl:sameAs db:Hematopoietic_stem_cell ;
+           :dbpedia_entry db:Hematopoietic_stem_cell ;
            :name "Hematopoietic stem cell" .
 
 cell:Plasma_cell a :cell ;
-           owl:sameAs db:Plasma_cell ;
+           :dbpedia_entry db:Plasma_cell ;
            :name "plasma cell" .
 
 interleukin:Interleukin_32 a interleukin: ;
-                   owl:sameAs db:Interleukin_32 ;
+                   :dbpedia_entry db:Interleukin_32 ;
                    :abbr "IL-32" ;
                    :name "Interleukin 32" .
 
 interleukin:Interleukin_11 a interleukin: ;
-                   owl:sameAs db:Interleukin_11 ;
+                   :dbpedia_entry db:Interleukin_11 ;
                    :abbr "IL-11" ;
                    :name "Interleukin 11" .
 
 interleukin:Interleukin_26 a interleukin: ;
-                   owl:sameAs db:Interleukin_26 ;
+                   :dbpedia_entry db:Interleukin_26 ;
                    :abbr "IL-26" ;
                    :name "Interleukin 26" .
 
 interleukin:Interleukin_14 a interleukin: ;
-                   owl:sameAs db:Interleukin_14 ;
+                   :dbpedia_entry db:Interleukin_14 ;
                    :abbr "IL-14" ;
                    :name "Interleukin 14" .
 
 interleukin:Interleukin_7 a interleukin: ;
-                   owl:sameAs db:Interleukin_7 ;
+                   :dbpedia_entry db:Interleukin_7 ;
                    :abbr "IL-7" ;
                    :name "Interleukin 7" .
 
 interleukin:Interleukin_31 a interleukin: ;
-                   owl:sameAs db:Interleukin_31 ;
+                   :dbpedia_entry db:Interleukin_31 ;
                    :abbr "IL-31" ;
                    :name "Interleukin 31" .
 
 interleukin:Interleukin_1 a interleukin: ;
-                   owl:sameAs db:Interleukin_1 ;
+                   :dbpedia_entry db:Interleukin_1 ;
                    :abbr "IL-1" ;
                    :name "Interleukin 1" .
 
 interleukin:Interleukin_25 a interleukin: ;
-                   owl:sameAs db:Interleukin_25 ;
+                   :dbpedia_entry db:Interleukin_25 ;
                    :abbr "IL-25" ;
                    :name "Interleukin 25" .
 
 interleukin:Interleukin_28 a interleukin: ;
-                   owl:sameAs db:Interleukin_28 ;
+                   :dbpedia_entry db:Interleukin_28 ;
                    :abbr "IL-28" ;
                    :name "Interleukin 28" .
 
 interleukin:Interleukin_13 a interleukin: ;
-                   owl:sameAs db:Interleukin_13 ;
+                   :dbpedia_entry db:Interleukin_13 ;
                    :abbr "IL-13" ;
                    :name "Interleukin 13" .
 
 interleukin:Interleukin_4 a interleukin: ;
-                   owl:sameAs db:Interleukin_4 ;
+                   :dbpedia_entry db:Interleukin_4 ;
                    :abbr "IL-4" ;
                    :name "Interleukin 4" .
 
 interleukin:Interleukin_16 a interleukin: ;
-                   owl:sameAs db:Interleukin_16 ;
+                   :dbpedia_entry db:Interleukin_16 ;
                    :abbr "IL-16" ;
                    :name "Interleukin 16" .
 
 interleukin:Interleukin_22 a interleukin: ;
-                   owl:sameAs db:Interleukin_22 ;
+                   :dbpedia_entry db:Interleukin_22 ;
                    :abbr "IL-22" ;
                    :name "Interleukin 22" .
 
 interleukin:Interleukin_10 a interleukin: ;
-                   owl:sameAs db:Interleukin_10 ;
+                   :dbpedia_entry db:Interleukin_10 ;
                    :abbr "IL-10" ;
                    :name "Interleukin 10" .
 
 interleukin:Interleukin_19 a interleukin: ;
-                   owl:sameAs db:Interleukin_19 ;
+                   :dbpedia_entry db:Interleukin_19 ;
                    :abbr "IL-19" ;
                    :name "Interleukin 19" .
 
 interleukin:Interleukin_3 a interleukin: ;
-                   owl:sameAs db:Interleukin_3 ;
+                   :dbpedia_entry db:Interleukin_3 ;
                    :abbr "IL-3" ;
                    :name "Interleukin 3" .
 
 interleukin:Interleukin_6 a interleukin: ;
-                   owl:sameAs db:Interleukin_6 ;
+                   :dbpedia_entry db:Interleukin_6 ;
                    :abbr "IL-6" ;
                    :name "Interleukin 6" .
 
 interleukin:Interleukin_36 a interleukin: ;
-                   owl:sameAs db:Interleukin_36 ;
+                   :dbpedia_entry db:Interleukin_36 ;
                    :abbr "IL-36" ;
                    :name "Interleukin 36" .
 
 interleukin:Interleukin_8 a interleukin: ;
-                   owl:sameAs db:Interleukin_8 ;
+                   :dbpedia_entry db:Interleukin_8 ;
                    :abbr "IL-8" ;
                    :abbr "CXCL8" ;
                    :name "Interleukin 8" .
 
 interleukin:Interleukin_30 a interleukin: ;
-                   owl:sameAs db:Interleukin_30 ;
+                   :dbpedia_entry db:Interleukin_30 ;
                    :abbr "IL-30" ;
                    :name "Interleukin 30" .
 
 interleukin:Interleukin_18 a interleukin: ;
-                   owl:sameAs db:Interleukin_18 ;
+                   :dbpedia_entry db:Interleukin_18 ;
                    :abbr "IL-18" ;
                    :name "Interleukin 18" .
 
 interleukin:Interleukin_9 a interleukin: ;
-                   owl:sameAs db:Interleukin_9 ;
+                   :dbpedia_entry db:Interleukin_9 ;
                    :abbr "IL-9" ;
                    :name "Interleukin 9" .
 
 interleukin:Interleukin_24 a interleukin: ;
-                   owl:sameAs db:Interleukin_24 ;
+                   :dbpedia_entry db:Interleukin_24 ;
                    :abbr "IL-24" ;
                    :name "Interleukin 24" .
 
 interleukin:Interleukin_27 a interleukin: ;
-                   owl:sameAs db:Interleukin_27 ;
+                   :dbpedia_entry db:Interleukin_27 ;
                    :abbr "IL-27" ;
                    :name "Interleukin 27" .
 
 interleukin:Interleukin_12 a interleukin: ;
-                   owl:sameAs db:Interleukin_12 ;
+                   :dbpedia_entry db:Interleukin_12 ;
                    :abbr "IL-12" ;
                    :name "Interleukin 12" .
 
 interleukin:Interleukin_33 a interleukin: ;
-                   owl:sameAs db:Interleukin_33 ;
+                   :dbpedia_entry db:Interleukin_33 ;
                    :abbr "IL-33" ;
                    :name "Interleukin 33" .
 
 interleukin:Interleukin_15 a interleukin: ;
-                   owl:sameAs db:Interleukin_15 ;
+                   :dbpedia_entry db:Interleukin_15 ;
                    :abbr "IL-15" ;
                    :name "Interleukin 15" .
 
 interleukin:Interleukin_21 a interleukin: ;
-                   owl:sameAs db:Interleukin_21 ;
+                   :dbpedia_entry db:Interleukin_21 ;
                    :abbr "IL-21" ;
                    :name "Interleukin 21" .
 
 interleukin:Interleukin_2 a interleukin: ;
-                   owl:sameAs db:Interleukin_2 ;
+                   :dbpedia_entry db:Interleukin_2 ;
                    :abbr "IL-2" ;
                    :name "Interleukin 2" .
 
 interleukin:Interleukin_35 a interleukin: ;
-                   owl:sameAs db:Interleukin_35 ;
+                   :dbpedia_entry db:Interleukin_35 ;
                    :abbr "IL-35" ;
                    :name "Interleukin 35" .
 
 interleukin:Interleukin_5 a interleukin: ;
-                   owl:sameAs db:Interleukin_5 ;
+                   :dbpedia_entry db:Interleukin_5 ;
                    :abbr "IL-5" ;
                    :name "Interleukin 5" .
 
 interleukin:Interleukin_29 a interleukin: ;
-                   owl:sameAs db:Interleukin_29 ;
+                   :dbpedia_entry db:Interleukin_29 ;
                    :abbr "IL-29" ;
                    :name "Interleukin 29" .
 
 interleukin:Interleukin_20 a interleukin: ;
-                   owl:sameAs db:Interleukin_20 ;
+                   :dbpedia_entry db:Interleukin_20 ;
                    :abbr "IL-20" ;
                    :name "Interleukin 20" .
 
 interleukin:Interleukin_17 a interleukin: ;
-                   owl:sameAs db:Interleukin_17 ;
+                   :dbpedia_entry db:Interleukin_17 ;
                    :abbr "IL-17" ;
                    :name "Interleukin 17" .
 
 interleukin:Interleukin_23 a interleukin: ;
-                   owl:sameAs db:Interleukin_23 ;
+                   :dbpedia_entry db:Interleukin_23 ;
                    :abbr "IL-23" ;
                    :name "Interleukin 23" .
 [] :source cell:Bone_marrow_stroma ;
