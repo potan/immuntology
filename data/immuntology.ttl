@@ -1,14 +1,14 @@
-@prefix rdfs: <http:www.w3.org/2000/01/rdf-schema#> .
-@prefix owl: <http:www.w3.org/2002/07/owl#> .
-@prefix rdf: <http:www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xsd: <http:www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-@prefix db: <http:dbpedia.org/resourse/> .
+@prefix db: <http://dbpedia.org/resourse/> .
 
-@prefix : <http:git-hub.com/potan/immuntology/> .
-@prefix cell: <http:git-hub.com/potan/immuntology/cell/> .
-@prefix interleukin: <http:git-hub.com/potan/immuntology/interleukin/> .
-@prefix receptor: <http:git-hub.com/potan/immuntology/receptor/> .
+@prefix : <http://git-hub.com/potan/immuntology/> .
+@prefix cell: <http://git-hub.com/potan/immuntology/cell/> .
+@prefix interleukin: <http://git-hub.com/potan/immuntology/interleukin/> .
+@prefix receptor: <http://git-hub.com/potan/immuntology/receptor/> .
 
 
 
@@ -90,12 +90,12 @@ cell:B_cell a :cell ;
            owl:sameAs db:B_cell ;
            :name "B cells" .
 
-cell:CD4%2B_cell a :cell ;
-           owl:sameAs db:CD4%2B_cell ;
+<http://git-hub.com/potan/immuntology/cell/CD4%2B_cell> a :cell ;
+           owl:sameAs <http://dbpedia.org/resourse/CD4%2B_cell> ;
            :name "CD4+ cell" .
 
-cell:CD8%2B_T_cells a :cell ;
-           owl:sameAs db:CD8%2B_T_cells ;
+<http://git-hub.com/potan/immuntology/cell/CD8%2B_T_cells> a :cell ;
+           owl:sameAs <http://dbpedia.org/resourse/CD8%2B_T_cells> ;
            :name "CD8+ T cells" .
 
 cell:Bone_marrow_stroma a :cell ;
@@ -130,8 +130,8 @@ cell:Oligodendrocyte a :cell ;
            owl:sameAs db:Oligodendrocyte ;
            :name "oligodendrocytes" .
 
-cell:Memory_CD4%2B_cells a :cell ;
-           owl:sameAs db:Memory_CD4%2B_cells ;
+<http://git-hub.com/potan/immuntology/cell/Memory_CD4%2B_cells> a :cell ;
+           owl:sameAs <http://dbpedia.org/resourse/Memory_CD4%2B_cells> ;
            :name "memory CD4+ cells" .
 
 cell:Melanocyte a :cell ;
@@ -408,7 +408,7 @@ interleukin:Interleukin_23 a interleukin: ;
 [] :source cell:Eosinophil ;
                   :substance interleukin:Interleukin_16 ;
                   :stateActive false .
-[] :source cell:CD8%2B_T_cells ;
+[] :source <http://git-hub.com/potan/immuntology/cell/CD8%2B_T_cells> ;
                   :substance interleukin:Interleukin_16 ;
                   :stateActive false .
 [] :source cell:Macrophage ;
@@ -429,10 +429,10 @@ interleukin:Interleukin_23 a interleukin: ;
 [] :source cell:Th2_cell ;
                   :substance interleukin:Interleukin_4 ;
                   :stateActive false .
-[] :source cell:CD4%2B_cell ;
+[] :source <http://git-hub.com/potan/immuntology/cell/CD4%2B_cell> ;
                   :substance interleukin:Interleukin_4 ;
                   :stateActive false .
-[] :source cell:Memory_CD4%2B_cells ;
+[] :source <http://git-hub.com/potan/immuntology/cell/Memory_CD4%2B_cells> ;
                   :substance interleukin:Interleukin_4 ;
                   :stateActive false .
 [] :source cell:Mast_cell ;
@@ -450,7 +450,7 @@ interleukin:Interleukin_23 a interleukin: ;
 [] :source cell:Th2_cell ;
                   :substance interleukin:Interleukin_10 ;
                   :stateActive false .
-[] :source cell:CD8%2B_T_cells ;
+[] :source <http://git-hub.com/potan/immuntology/cell/CD8%2B_T_cells> ;
                   :substance interleukin:Interleukin_10 ;
                   :stateActive false .
 [] :source cell:Mast_cell ;
@@ -575,10 +575,10 @@ receptor:IL3RA a receptor: ;
   :abbr "CD123" ;
   :abbr "IL3RA" ;
 :description "IL3RA" .
-receptor:Interleukin_12_receptor%2C_beta_2_subunit a receptor: ;
+<http://git-hub.com/potan/immuntology/receptor/Interleukin_12_receptor%2C_beta_2_subunit> a receptor: ;
   :abbr "IR12RB2" ;
 :description "Interleukin 12 receptor, beta 2 subunit" .
-receptor:Interleukin_8_receptor%2C_beta a receptor: ;
+<http://git-hub.com/potan/immuntology/receptor/Interleukin_8_receptor%2C_beta> a receptor: ;
   :abbr "CXCR2" ;
   :abbr "IL8RB" ;
 :description "Interleukin 8 receptor, beta" .
@@ -596,7 +596,7 @@ receptor:Interleukin-9_receptor a receptor: ;
 receptor:IL31RA a receptor: ;
   :abbr "IL31RA" ;
 :description "IL31RA" .
-receptor:Interleukin_1_receptor%2C_type_I a receptor: ;
+<http://git-hub.com/potan/immuntology/receptor/Interleukin_1_receptor%2C_type_I> a receptor: ;
   :abbr "CD121a" ;
   :abbr "IL1R1" ;
 :description "Interleukin 1 receptor, type I" .
@@ -614,14 +614,14 @@ receptor:Glycoprotein_130 a receptor: ;
   :abbr "CD130" ;
   :abbr "IR6RB" ;
 :description "Glycoprotein 130" .
-receptor:Interleukin_20_receptor%2C_alpha_subunit a receptor: ;
+<http://git-hub.com/potan/immuntology/receptor/Interleukin_20_receptor%2C_alpha_subunit> a receptor: ;
   :abbr "IL20R1" ;
 :description "Interleukin 20 receptor, alpha subunit" .
 receptor:IL2RB a receptor: ;
   :abbr "CD122" ;
   :abbr "IL2RB" ;
 :description "IL2RB" .
-receptor:Interleukin_1_receptor%2C_type_II a receptor: ;
+<http://git-hub.com/potan/immuntology/receptor/Interleukin_1_receptor%2C_type_II> a receptor: ;
   :abbr "CD121b" ;
   :abbr "IL1R2" ;
 :description "Interleukin 1 receptor, type II" .
@@ -636,7 +636,7 @@ receptor:IL17RA a receptor: ;
   :abbr "CDw217" ;
   :abbr "IL17RA" ;
 :description "IL17RA" .
-receptor:Interleukin_10_receptor%2C_beta_subunit a receptor: ;
+<http://git-hub.com/potan/immuntology/receptor/Interleukin_10_receptor%2C_beta_subunit> a receptor: ;
   :abbr "CDW210B" ;
   :abbr "IL10RB" ;
 :description "Interleukin 10 receptor, beta subunit" .
@@ -647,7 +647,7 @@ receptor:Interleukin-7_receptor a receptor: ;
   :abbr "CD127" ;
   :abbr "IL7RA" ;
 :description "Interleukin-7 receptor" .
-receptor:Interleukin_27_receptor%2C_alpha_subunit a receptor: ;
+<http://git-hub.com/potan/immuntology/receptor/Interleukin_27_receptor%2C_alpha_subunit> a receptor: ;
   :abbr "IL27RA" ;
 :description "Interleukin 27 receptor, alpha subunit" .
 receptor:Interleukin_5_receptor_alpha_subunit a receptor: ;
@@ -657,17 +657,17 @@ receptor:Interleukin_5_receptor_alpha_subunit a receptor: ;
 receptor:Interleukin-28_receptor a receptor: ;
   :abbr "IL28R" ;
 :description "Interleukin-28 receptor" .
-receptor:Interleukin_15_receptor%2C_alpha_subunit a receptor: ;
+<http://git-hub.com/potan/immuntology/receptor/Interleukin_15_receptor%2C_alpha_subunit> a receptor: ;
   :abbr "IL15RA" ;
 :description "Interleukin 15 receptor, alpha subunit" .
 receptor:IL17RB a receptor: ;
   :abbr "IL17RB" ;
 :description "IL17RB" .
-receptor:Interleukin_10_receptor%2C_alpha_subunit a receptor: ;
+<http://git-hub.com/potan/immuntology/receptor/Interleukin_10_receptor%2C_alpha_subunit> a receptor: ;
   :abbr "CD210" ;
   :abbr "IL10RA" ;
 :description "Interleukin 10 receptor, alpha subunit" .
-receptor:Interleukin_8_receptor%2C_alpha a receptor: ;
+<http://git-hub.com/potan/immuntology/receptor/Interleukin_8_receptor%2C_alpha> a receptor: ;
   :abbr "CXCR1" ;
   :abbr "IL8RA" ;
 :description "Interleukin 8 receptor, alpha" .
@@ -684,13 +684,13 @@ receptor:Interleukin-18_receptor a receptor: ;
 receptor:Interleukin-22_receptor a receptor: ;
   :abbr "IL22R" ;
 :description "Interleukin-22 receptor" .
-receptor:Interleukin_12_receptor%2C_beta_1_subunit a receptor: ;
+<http://git-hub.com/potan/immuntology/receptor/Interleukin_12_receptor%2C_beta_1_subunit> a receptor: ;
   :abbr "CD212" ;
   :abbr "IL12RB1" ;
 :description "Interleukin 12 receptor, beta 1 subunit" .
 [] :sensor receptor:Interleukin_11_receptor_alpha_subunit ;
       :senseFor interleukin:Interleukin_11 .
-[] :sensor receptor:Interleukin_20_receptor%2C_alpha_subunit ;
+[] :sensor <http://git-hub.com/potan/immuntology/receptor/Interleukin_20_receptor%2C_alpha_subunit> ;
       :senseFor interleukin:Interleukin_26 .
 [] :sensor receptor:Interleukin-7_receptor ;
       :senseFor interleukin:Interleukin_7 .
@@ -698,9 +698,9 @@ receptor:Interleukin_12_receptor%2C_beta_1_subunit a receptor: ;
       :senseFor interleukin:Interleukin_7 .
 [] :sensor receptor:IL31RA ;
       :senseFor interleukin:Interleukin_31 .
-[] :sensor receptor:Interleukin_1_receptor%2C_type_I ;
+[] :sensor <http://git-hub.com/potan/immuntology/receptor/Interleukin_1_receptor%2C_type_I> ;
       :senseFor interleukin:Interleukin_1 .
-[] :sensor receptor:Interleukin_1_receptor%2C_type_II ;
+[] :sensor <http://git-hub.com/potan/immuntology/receptor/Interleukin_1_receptor%2C_type_II> ;
       :senseFor interleukin:Interleukin_1 .
 [] :sensor receptor:LY6E ;
       :senseFor interleukin:Interleukin_25 .
@@ -716,9 +716,9 @@ receptor:Interleukin_12_receptor%2C_beta_1_subunit a receptor: ;
       :senseFor interleukin:Interleukin_16 .
 [] :sensor receptor:Interleukin-22_receptor ;
       :senseFor interleukin:Interleukin_22 .
-[] :sensor receptor:Interleukin_10_receptor%2C_alpha_subunit ;
+[] :sensor <http://git-hub.com/potan/immuntology/receptor/Interleukin_10_receptor%2C_alpha_subunit> ;
       :senseFor interleukin:Interleukin_10 .
-[] :sensor receptor:Interleukin_10_receptor%2C_beta_subunit ;
+[] :sensor <http://git-hub.com/potan/immuntology/receptor/Interleukin_10_receptor%2C_beta_subunit> ;
       :senseFor interleukin:Interleukin_10 .
 [] :sensor receptor:Interleukin-20_receptor ;
       :senseFor interleukin:Interleukin_19 .
@@ -730,9 +730,9 @@ receptor:Interleukin_12_receptor%2C_beta_1_subunit a receptor: ;
       :senseFor interleukin:Interleukin_6 .
 [] :sensor receptor:Glycoprotein_130 ;
       :senseFor interleukin:Interleukin_6 .
-[] :sensor receptor:Interleukin_8_receptor%2C_alpha ;
+[] :sensor <http://git-hub.com/potan/immuntology/receptor/Interleukin_8_receptor%2C_alpha> ;
       :senseFor interleukin:Interleukin_8 .
-[] :sensor receptor:Interleukin_8_receptor%2C_beta ;
+[] :sensor <http://git-hub.com/potan/immuntology/receptor/Interleukin_8_receptor%2C_beta> ;
       :senseFor interleukin:Interleukin_8 .
 [] :sensor receptor:Interleukin-18_receptor ;
       :senseFor interleukin:Interleukin_18 .
@@ -740,13 +740,13 @@ receptor:Interleukin_12_receptor%2C_beta_1_subunit a receptor: ;
       :senseFor interleukin:Interleukin_9 .
 [] :sensor receptor:Interleukin-20_receptor ;
       :senseFor interleukin:Interleukin_24 .
-[] :sensor receptor:Interleukin_27_receptor%2C_alpha_subunit ;
+[] :sensor <http://git-hub.com/potan/immuntology/receptor/Interleukin_27_receptor%2C_alpha_subunit> ;
       :senseFor interleukin:Interleukin_27 .
-[] :sensor receptor:Interleukin_12_receptor%2C_beta_1_subunit ;
+[] :sensor <http://git-hub.com/potan/immuntology/receptor/Interleukin_12_receptor%2C_beta_1_subunit> ;
       :senseFor interleukin:Interleukin_12 .
-[] :sensor receptor:Interleukin_12_receptor%2C_beta_2_subunit ;
+[] :sensor <http://git-hub.com/potan/immuntology/receptor/Interleukin_12_receptor%2C_beta_2_subunit> ;
       :senseFor interleukin:Interleukin_12 .
-[] :sensor receptor:Interleukin_15_receptor%2C_alpha_subunit ;
+[] :sensor <http://git-hub.com/potan/immuntology/receptor/Interleukin_15_receptor%2C_alpha_subunit> ;
       :senseFor interleukin:Interleukin_15 .
 [] :sensor receptor:Interleukin-21_receptor ;
       :senseFor interleukin:Interleukin_21 .
